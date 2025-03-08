@@ -26,3 +26,9 @@ conda deactivate
 
 # install packages in requirements.txt
 pip install -r requirements.txt
+
+# update the new code after modification
+git add .
+git commit -m "Data Transformation done"
+git status
+git push -u origin main
